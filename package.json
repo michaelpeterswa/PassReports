@@ -1,0 +1,33 @@
+{
+  "name": "passreports",
+  "version": "1.0.0",
+  "description": "WA Pass Reports website",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelpeterswa/PassReports.git"
+  },
+  "author": "Michael Peters",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelpeterswa/PassReports/issues"
+  },
+  "homepage": "https://github.com/michaelpeterswa/PassReports#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.6.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.0-beta1",
+    "bootstrap-icons": "^1.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "json": "^10.0.0",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7"
+  }
+}
